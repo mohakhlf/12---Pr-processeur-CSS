@@ -1,0 +1,5 @@
+$meduim: 768px!default;
+$large: 1000px!default;
+$meduim-down: "only screen and (max-width: #{$meduim})";
+$large-up: "only screen and (max-width: #{$large})";
+$large-down: "only screen and (max-width: #{$large})";

@@ -1,0 +1,153 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select, textarea {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+td:not([align]), th:not([align]) {
+  text-align: left;
+}
+
+body {
+  padding: 10px;
+  background: #ffffff;
+}
+
+div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  margin: auto;
+}
+
+#pres {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#pres .ring {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 6px solid #fd7825;
+}
+
+#ring1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ring1 .ring {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 25px solid #f7c83a;
+}
+
+#rings {
+  display: flex;
+  flex-direction: column;
+}
+
+#rings > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#rings > div .ring:nth-child(1) {
+  margin-left: -10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid #353534;
+}
+#rings > div .ring:nth-child(2) {
+  margin-left: -20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 6px solid #353534;
+}
+#rings > div .ring:nth-child(3) {
+  margin-left: -30px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 9px solid #353534;
+}
+#rings > div .ring:nth-child(4) {
+  margin-left: -40px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 12px solid #353534;
+}
+#rings > div .ring:nth-child(5) {
+  margin-left: -50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 15px solid #353534;
+}
+#rings > div .ring:nth-child(6) {
+  margin-left: -60px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 18px solid #353534;
+}
+
+.div {
+  margin-top: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */

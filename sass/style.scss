@@ -1,0 +1,62 @@
+@import "libs/rest.scss";
+@import "libs/mixins.scss";
+@import "libs/responsive.scss";
+
+$pimary: rgb(105,143,214);
+$padding: 10px;
+$yellow: #fcca00;
+$orange: #fd7825;
+$gray: #353534;
+body
+{
+  padding: $padding;
+  background: #ffffff;
+}
+
+div
+{
+  @include push--auto;
+}
+
+p
+{
+  margin: auto;
+}
+
+#pres {
+  @include flex();
+
+  .ring {
+    @include ring(60, $orange);
+  }
+}
+
+#ring1 {
+  @include flex();
+
+  .ring {
+    @include ring(250, #f7c83a);
+  }
+}
+
+#rings
+{
+  display: flex;
+  flex-direction: column;
+}
+
+#rings > div {
+  @include flex();
+
+  @for $i from 1 through 6 {
+    .ring:nth-child(#{$i}) {
+      margin-left: (-20* $i/2)+px;
+      @include ring(30 * $i, $gray);
+    }
+  }
+}
+
+.div
+{
+  margin-top: 100px;
+}

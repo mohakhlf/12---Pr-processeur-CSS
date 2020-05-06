@@ -1,0 +1,20 @@
+@mixin ring($size, $color) {
+  width: $size+px;
+  height: $size+px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: ($size / 10)+px solid $color;
+}
+
+@mixin flex() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin push--auto {
+  margin: {
+    left: auto;
+    right: auto;
+  }
+}
